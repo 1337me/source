@@ -1,25 +1,25 @@
 baseurl = "https://heinhtetkyaw.me"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Hein Htet Kyaw's Personal"
-theme = "site"
+title = "Diary"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
+enableEmoji = true
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-disqusShortname = "kiddomonster"
+disqusShortname = "heinhtetkyaw"
+googleAnalytics = "UA-118963687-2"
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#googleAnalytics = "XXX"
+post = "/:title/"
 
 [Params]
 # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  subtitle = "Author from Golden Land Myanmar"
+  logo = "img/avatar-logo.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  since = "2017"
+  dateFormat = "Jan 2, 2006"
   commit = false
   rss = true
   comments = true
@@ -29,7 +29,7 @@ disqusShortname = "kiddomonster"
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  gcse = "003623834011720940587:b1tdlq4ypqy" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -44,34 +44,35 @@ disqusShortname = "kiddomonster"
 #  desc = "Hexagon"
 
 [Author]
-  name = "Kiddo Monster"
-  since = "2017"
-  website = "heinhtetkyaw.me"
+  name = "Kiddo"
+  since = "2012"
+  website = "https://heinhtetkyaw.me"
   email = "me@heinhtetkyaw.me"
   facebook = "h2kyaw"
   googleplus = "+HeinHtetKyaw" # or xxxxxxxxxxxxxxxxxxxxx
   github = "h2kyaw"
   twitter = "HeinHtetKyaw_"
   instagram = "CallMePuTuTuLay"
-  youtube = "user/username" # or channel/channelname
-  telegram = "username"
+  youtube = "Kiddo-MUA" # or channel/channelname
+  telegram = "HeinHtetKyaw"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+  name = "Blog"
+  url = ""
+  weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+  name = "About"
+  url = "/about"
+  weight = 2
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
+  name = "Books"
+  identifier = "/books"
+  url = "books"
+  weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+  name = "Tags"
+  url = "tags"
+  weight = 4

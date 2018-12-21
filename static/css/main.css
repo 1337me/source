@@ -15,6 +15,14 @@ body {
   flex: 1 0 auto;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+  outline: 1px solid #708090;
+}
+
 @media only screen and (max-width: 767px) {
 .container[role=main] {
     margin-left: 0;
